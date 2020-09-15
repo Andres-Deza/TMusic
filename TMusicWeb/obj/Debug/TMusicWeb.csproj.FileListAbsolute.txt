@@ -1,0 +1,731 @@
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll.config
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\TMusicWeb.pdb
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe.config
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\csc.rsp
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe.config
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\csi.rsp
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Console.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe.config
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\vbc.rsp
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csprojAssemblyReference.cache
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CoreCompileInputs.cache
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CopyComplete
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.pdb
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll.config
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.pdb
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe.config
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.rsp
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe.config
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.rsp
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Console.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe.config
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.rsp
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csprojAssemblyReference.cache
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CoreCompileInputs.cache
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CopyComplete
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.dll
+C:\Users\Andres\Desktop\COSAS DE LA UNI\5to semestre\Programacion Avanzada\Appv1\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.pdb
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll.config
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.pdb
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe.config
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.rsp
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe.config
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.rsp
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.AppContext.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Console.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Globalization.Calendars.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Http.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Sockets.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.ValueTuple.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe.config
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.rsp
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csprojAssemblyReference.cache
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CoreCompileInputs.cache
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CopyComplete
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.dll
+D:\inacap\5to sem\adv prog\aaaaaqqqqq\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.pdb
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csprojAssemblyReference.cache
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CoreCompileInputs.cache
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.pdb
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll.config
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.pdb
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe.config
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.rsp
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe.config
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.rsp
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Console.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe.config
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.rsp
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andres\Downloads\TMusicWebv4\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CopyComplete
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll.config
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.pdb
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe.config
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.rsp
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe.config
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.rsp
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.AppContext.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Console.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Globalization.Calendars.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Http.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Sockets.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.ValueTuple.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe.config
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.rsp
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csprojAssemblyReference.cache
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CoreCompileInputs.cache
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CopyComplete
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.dll
+D:\inacap\5to sem\adv prog\vv99\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.pdb
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll.config
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.pdb
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe.config
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.rsp
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe.config
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.rsp
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Console.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe.config
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.rsp
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csprojAssemblyReference.cache
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CoreCompileInputs.cache
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CopyComplete
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.dll
+C:\Users\Andres\Downloads\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.pdb
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll.config
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\TMusicWeb.pdb
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe.config
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csc.rsp
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe.config
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\csi.rsp
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.AppContext.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Console.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Globalization.Calendars.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Http.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Sockets.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.ValueTuple.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe.config
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\vbc.rsp
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csprojAssemblyReference.cache
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CoreCompileInputs.cache
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CopyComplete
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWebv11\TMusicWebv2\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.pdb
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll.config
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\TMusicWeb.pdb
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe.config
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\csc.rsp
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe.config
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\csi.rsp
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.AppContext.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Console.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Globalization.Calendars.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Http.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Sockets.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.ValueTuple.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe.config
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\vbc.rsp
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csprojAssemblyReference.cache
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CoreCompileInputs.cache
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CopyComplete
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.dll
+D:\inacap\5to sem\adv prog\tm12xd\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.pdb
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll.config
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\TMusicWeb.pdb
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe.config
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\csc.rsp
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe.config
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\csi.rsp
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Console.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe.config
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\vbc.rsp
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\EntityFramework.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\EntityFramework.xml
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CoreCompileInputs.cache
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CopyComplete
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.dll
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.pdb
+C:\Users\Andres\Downloads\TMusicWeb-v14.0\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csprojAssemblyReference.cache
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll.config
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\TMusicWeb.pdb
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe.config
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\csc.rsp
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe.config
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\csi.rsp
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Console.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe.config
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\vbc.rsp
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\EntityFramework.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\EntityFramework.xml
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CoreCompileInputs.cache
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CopyComplete
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.pdb
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\Microsoft.Data.Tools.Components.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\Microsoft.Data.Tools.Utilities.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\Microsoft.Build.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\Microsoft.Build.Framework.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\System.Collections.Immutable.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\System.Memory.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\System.Threading.Tasks.Dataflow.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\System.Numerics.Vectors.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\System.Buffers.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\es\Microsoft.Data.Tools.Schema.Sql.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\es\Microsoft.Data.Tools.Schema.Sql.UnitTesting.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\es\Microsoft.Data.Tools.Components.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\es\Microsoft.Data.Tools.Utilities.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\es\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\cs\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\de\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\en\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\es\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\fr\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\it\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\ja\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\ko\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\pl\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\pt-BR\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\ru\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\tr\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\zh-Hans\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\bin\zh-Hant\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csprojAssemblyReference.cache
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll.config
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\TMusicWeb.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\TMusicWeb.pdb
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\csc.exe.config
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\csc.rsp
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\csi.exe.config
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\csi.rsp
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Console.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\vbc.exe.config
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\vbc.rsp
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\EntityFramework.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\Microsoft.Data.Tools.Components.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\Microsoft.Data.Tools.Utilities.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\Microsoft.Build.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\Microsoft.Build.Framework.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\System.Collections.Immutable.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\System.Memory.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\System.Threading.Tasks.Dataflow.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\System.Numerics.Vectors.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\System.Buffers.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\EntityFramework.xml
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\es\Microsoft.Data.Tools.Schema.Sql.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\es\Microsoft.Data.Tools.Schema.Sql.UnitTesting.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\es\Microsoft.Data.Tools.Components.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\es\Microsoft.Data.Tools.Utilities.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\es\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\cs\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\de\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\en\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\es\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\fr\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\it\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\ja\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\ko\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\pl\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\pt-BR\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\ru\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\tr\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\zh-Hans\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\bin\zh-Hant\Microsoft.Build.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csprojAssemblyReference.cache
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CoreCompileInputs.cache
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.csproj.CopyComplete
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.dll
+C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\obj\Debug\TMusicWeb.pdb

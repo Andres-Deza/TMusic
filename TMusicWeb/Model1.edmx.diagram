@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c83a4fb5c9a44c19ad8e3c9b9ba1c5dc" Name="Diagram1" ZoomLevel="46">
+        <EntityTypeShape EntityType="Database2Model.AVISO" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database2Model.BOLETA" Width="1.5" PointX="8.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database2Model.ESTILO_MUSICAL" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database2Model.FORMA_PAGO" Width="1.5" PointX="6" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database2Model.REGION" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database2Model.REPORTE" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database2Model.TIPO_AVISO" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database2Model.TIPO_PRODUCTO" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database2Model.TIPO_REPORTE" Width="1.5" PointX="3" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database2Model.USUARIO" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database2Model.USUARIO_BANDA" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database2Model.USUARIO_SOLISTA" Width="1.5" PointX="6" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="Database2Model.FK_AVISO_ES_DE_REGION" ManuallyRouted="false" />
+        <AssociationConnector Association="Database2Model.FK_AVISO_PUEDE_SER_TIPO_AVI" ManuallyRouted="false" />
+        <AssociationConnector Association="Database2Model.FK_AVISO_PUEDE_SER_TIPO_PRO" ManuallyRouted="false" />
+        <AssociationConnector Association="Database2Model.FK_BOLETA_SE_REGIST_AVISO" ManuallyRouted="false" />
+        <AssociationConnector Association="Database2Model.FK_REPORTE_SERA_AVISO" ManuallyRouted="false" />
+        <AssociationConnector Association="Database2Model.FK_BOLETA_PUEDE_REA_FORMA_PA" ManuallyRouted="false" />
+        <AssociationConnector Association="Database2Model.FK_USUARIO__PREDOMINA_ESTILO_M" ManuallyRouted="false" />
+        <AssociationConnector Association="Database2Model.FK_USUARIO__PUEDE_TEN_ESTILO_M" ManuallyRouted="false" />
+        <AssociationConnector Association="Database2Model.FK_USUARIO__ES__DE_REGION" ManuallyRouted="false" />
+        <AssociationConnector Association="Database2Model.FK_USUARIO__SON_DE_REGION" ManuallyRouted="false" />
+        <AssociationConnector Association="Database2Model.FK_REPORTE_PUEDEN_SE_TIPO_REP" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

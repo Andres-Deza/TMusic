@@ -1,0 +1,6 @@
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\b\TMusicWeb\bin\TMusicWeb.dll.config
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\b\TMusicWeb\bin\TMusicWeb.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\i\TMusicWeb\Debug\TMusicWeb.csprojAssemblyReference.cache
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\i\TMusicWeb\Debug\TMusicWeb.csproj.CoreCompileInputs.cache
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\i\TMusicWeb\Debug\TMusicWeb.csproj.CopyComplete
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\i\TMusicWeb\Debug\TMusicWeb.dll

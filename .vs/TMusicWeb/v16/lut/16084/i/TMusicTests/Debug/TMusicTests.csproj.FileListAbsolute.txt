@@ -1,0 +1,11 @@
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\b\TMusicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\b\TMusicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\b\TMusicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\b\TMusicTests\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\b\TMusicTests\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\b\TMusicTests\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\b\TMusicTests\bin\Debug\TMusicTests.dll
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\i\TMusicTests\Debug\TMusicTests.csprojAssemblyReference.cache
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\i\TMusicTests\Debug\TMusicTests.csproj.CoreCompileInputs.cache
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\i\TMusicTests\Debug\TMusicTests.csproj.CopyComplete
+C:\Users\Andres\Downloads\TMusicWeb-v15.0\TMusicWeb\.vs\TMusicWeb\v16\lut\0\i\TMusicTests\Debug\TMusicTests.dll

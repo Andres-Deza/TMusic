@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AVISO">
+    <Key>
+      <PropertyRef Name="ID_AVISO" />
+    </Key>
+    <Property Name="ID_AVISO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_CIUDAD" Type="Int32" Nullable="false" />
+    <Property Name="ID_TIP_AVISO" Type="Int32" Nullable="false" />
+    <Property Name="ID_TIPO_PRODUCTO" Type="Int32" Nullable="false" />
+    <Property Name="FOTO" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="PRECIO" Type="Int32" Nullable="false" />
+    <Property Name="FECHA" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PRODUCTO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="VENDEDOR" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MARCA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="REGION" Relationship="Self.FK_AVISO_ES_DE_REGION" FromRole="AVISO" ToRole="REGION" />
+    <NavigationProperty Name="TIPO_AVISO" Relationship="Self.FK_AVISO_PUEDE_SER_TIPO_AVI" FromRole="AVISO" ToRole="TIPO_AVISO" />
+    <NavigationProperty Name="TIPO_PRODUCTO" Relationship="Self.FK_AVISO_PUEDE_SER_TIPO_PRO" FromRole="AVISO" ToRole="TIPO_PRODUCTO" />
+    <NavigationProperty Name="BOLETA" Relationship="Self.FK_BOLETA_SE_REGIST_AVISO" FromRole="AVISO" ToRole="BOLETA" />
+    <NavigationProperty Name="REPORTE" Relationship="Self.FK_REPORTE_SERA_AVISO" FromRole="AVISO" ToRole="REPORTE" />
+  </EntityType>
+  <EntityType Name="BOLETA">
+    <Key>
+      <PropertyRef Name="ID_BOLETA" />
+    </Key>
+    <Property Name="ID_BOLETA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_FORMA" Type="Int32" Nullable="false" />
+    <Property Name="ID_USUARIO" Type="Int32" Nullable="false" />
+    <Property Name="ID_AVISO" Type="Int32" Nullable="false" />
+    <Property Name="FECHA_TRANS" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="DETALLE" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="DETALLES" Type="String" MaxLength="120" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="AVISO" Relationship="Self.FK_BOLETA_SE_REGIST_AVISO" FromRole="BOLETA" ToRole="AVISO" />
+    <NavigationProperty Name="FORMA_PAGO" Relationship="Self.FK_BOLETA_PUEDE_REA_FORMA_PA" FromRole="BOLETA" ToRole="FORMA_PAGO" />
+    <NavigationProperty Name="USUARIO" Relationship="Self.FK_BOLETA_PUEDE_REA_USUARIO" FromRole="BOLETA" ToRole="USUARIO" />
+  </EntityType>
+  <EntityType Name="ESTILO_MUSICAL">
+    <Key>
+      <PropertyRef Name="ID_ESTILO" />
+    </Key>
+    <Property Name="ID_ESTILO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOM_ESTILO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="USUARIO_SOLISTA" Relationship="Self.FK_USUARIO__PREDOMINA_ESTILO_M" FromRole="ESTILO_MUSICAL" ToRole="USUARIO_SOLISTA" />
+    <NavigationProperty Name="USUARIO_BANDA" Relationship="Self.FK_USUARIO__PUEDE_TEN_ESTILO_M" FromRole="ESTILO_MUSICAL" ToRole="USUARIO_BANDA" />
+  </EntityType>
+  <EntityType Name="FORMA_PAGO">
+    <Key>
+      <PropertyRef Name="ID_FORMA" />
+    </Key>
+    <Property Name="ID_FORMA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOM_FORMA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="BOLETA" Relationship="Self.FK_BOLETA_PUEDE_REA_FORMA_PA" FromRole="FORMA_PAGO" ToRole="BOLETA" />
+  </EntityType>
+  <EntityType Name="REGION">
+    <Key>
+      <PropertyRef Name="ID_CIUDAD" />
+    </Key>
+    <Property Name="ID_CIUDAD" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOM_CIUDAD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="AVISO" Relationship="Self.FK_AVISO_ES_DE_REGION" FromRole="REGION" ToRole="AVISO" />
+    <NavigationProperty Name="USUARIO_SOLISTA" Relationship="Self.FK_USUARIO__ES__DE_REGION" FromRole="REGION" ToRole="USUARIO_SOLISTA" />
+    <NavigationProperty Name="USUARIO_BANDA" Relationship="Self.FK_USUARIO__SON_DE_REGION" FromRole="REGION" ToRole="USUARIO_BANDA" />
+  </EntityType>
+  <EntityType Name="REPORTE">
+    <Key>
+      <PropertyRef Name="ID_REPORTE" />
+    </Key>
+    <Property Name="ID_REPORTE" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_TIP_REP" Type="Int32" Nullable="false" />
+    <Property Name="ID_AVISO" Type="Int32" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="120" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="AVISO" Relationship="Self.FK_REPORTE_SERA_AVISO" FromRole="REPORTE" ToRole="AVISO" />
+    <NavigationProperty Name="TIPO_REPORTE" Relationship="Self.FK_REPORTE_PUEDEN_SE_TIPO_REP" FromRole="REPORTE" ToRole="TIPO_REPORTE" />
+  </EntityType>
+  <EntityType Name="TIPO_AVISO">
+    <Key>
+      <PropertyRef Name="ID_TIP_AVISO" />
+    </Key>
+    <Property Name="ID_TIP_AVISO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOM_TIP_AVISO" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="AVISO" Relationship="Self.FK_AVISO_PUEDE_SER_TIPO_AVI" FromRole="TIPO_AVISO" ToRole="AVISO" />
+  </EntityType>
+  <EntityType Name="TIPO_PRODUCTO">
+    <Key>
+      <PropertyRef Name="ID_TIPO_PRODUCTO" />
+    </Key>
+    <Property Name="ID_TIPO_PRODUCTO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOM_TIPO_PROD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="AVISO" Relationship="Self.FK_AVISO_PUEDE_SER_TIPO_PRO" FromRole="TIPO_PRODUCTO" ToRole="AVISO" />
+  </EntityType>
+  <EntityType Name="TIPO_REPORTE">
+    <Key>
+      <PropertyRef Name="ID_TIP_REP" />
+    </Key>
+    <Property Name="ID_TIP_REP" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOM_TIP_REP" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="REPORTE" Relationship="Self.FK_REPORTE_PUEDEN_SE_TIPO_REP" FromRole="TIPO_REPORTE" ToRole="REPORTE" />
+  </EntityType>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="ID_USUARIO" />
+    </Key>
+    <Property Name="ID_USUARIO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CORREO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CONTRASENA" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NOMBRE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="APELLIDO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ESTADO_CUENTA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="BOLETA" Relationship="Self.FK_BOLETA_PUEDE_REA_USUARIO" FromRole="USUARIO" ToRole="BOLETA" />
+  </EntityType>
+  <EntityType Name="USUARIO_BANDA">
+    <Key>
+      <PropertyRef Name="ID_BANDA" />
+    </Key>
+    <Property Name="ID_BANDA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CORREO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CONTRASENA" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NOMBRE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="APELLIDO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ESTADO_CUENTA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ID_ESTILO" Type="Int32" />
+    <Property Name="ID_CIUDAD" Type="Int32" />
+    <Property Name="NOM_BANDA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="INFLUENCIAS" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="DISPONIBILIDAD" Type="Boolean" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ESTILO_MUSICAL" Relationship="Self.FK_USUARIO__PUEDE_TEN_ESTILO_M" FromRole="USUARIO_BANDA" ToRole="ESTILO_MUSICAL" />
+    <NavigationProperty Name="REGION" Relationship="Self.FK_USUARIO__SON_DE_REGION" FromRole="USUARIO_BANDA" ToRole="REGION" />
+  </EntityType>
+  <EntityType Name="USUARIO_SOLISTA">
+    <Key>
+      <PropertyRef Name="ID_SOLISTA" />
+    </Key>
+    <Property Name="ID_SOLISTA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CORREO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CONTRASENA" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NOMBRE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="APELLIDO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ESTADO_CUENTA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ID_ESTILO" Type="Int32" />
+    <Property Name="ID_CIUDAD" Type="Int32" />
+    <Property Name="APODO" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="INFLUENCIAS" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ESTILO_MUSICAL" Relationship="Self.FK_USUARIO__PREDOMINA_ESTILO_M" FromRole="USUARIO_SOLISTA" ToRole="ESTILO_MUSICAL" />
+    <NavigationProperty Name="REGION" Relationship="Self.FK_USUARIO__ES__DE_REGION" FromRole="USUARIO_SOLISTA" ToRole="REGION" />
+  </EntityType>
+  <Association Name="FK_AVISO_ES_DE_REGION">
+    <End Role="REGION" Type="Self.REGION" Multiplicity="1" />
+    <End Role="AVISO" Type="Self.AVISO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REGION">
+        <PropertyRef Name="ID_CIUDAD" />
+      </Principal>
+      <Dependent Role="AVISO">
+        <PropertyRef Name="ID_CIUDAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AVISO_PUEDE_SER_TIPO_AVI">
+    <End Role="TIPO_AVISO" Type="Self.TIPO_AVISO" Multiplicity="1" />
+    <End Role="AVISO" Type="Self.AVISO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPO_AVISO">
+        <PropertyRef Name="ID_TIP_AVISO" />
+      </Principal>
+      <Dependent Role="AVISO">
+        <PropertyRef Name="ID_TIP_AVISO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AVISO_PUEDE_SER_TIPO_PRO">
+    <End Role="TIPO_PRODUCTO" Type="Self.TIPO_PRODUCTO" Multiplicity="1" />
+    <End Role="AVISO" Type="Self.AVISO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPO_PRODUCTO">
+        <PropertyRef Name="ID_TIPO_PRODUCTO" />
+      </Principal>
+      <Dependent Role="AVISO">
+        <PropertyRef Name="ID_TIPO_PRODUCTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOLETA_SE_REGIST_AVISO">
+    <End Role="AVISO" Type="Self.AVISO" Multiplicity="1" />
+    <End Role="BOLETA" Type="Self.BOLETA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AVISO">
+        <PropertyRef Name="ID_AVISO" />
+      </Principal>
+      <Dependent Role="BOLETA">
+        <PropertyRef Name="ID_AVISO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_REPORTE_SERA_AVISO">
+    <End Role="AVISO" Type="Self.AVISO" Multiplicity="1" />
+    <End Role="REPORTE" Type="Self.REPORTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AVISO">
+        <PropertyRef Name="ID_AVISO" />
+      </Principal>
+      <Dependent Role="REPORTE">
+        <PropertyRef Name="ID_AVISO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOLETA_PUEDE_REA_FORMA_PA">
+    <End Role="FORMA_PAGO" Type="Self.FORMA_PAGO" Multiplicity="1" />
+    <End Role="BOLETA" Type="Self.BOLETA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FORMA_PAGO">
+        <PropertyRef Name="ID_FORMA" />
+      </Principal>
+      <Dependent Role="BOLETA">
+        <PropertyRef Name="ID_FORMA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOLETA_PUEDE_REA_USUARIO">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+    <End Role="BOLETA" Type="Self.BOLETA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="ID_USUARIO" />
+      </Principal>
+      <Dependent Role="BOLETA">
+        <PropertyRef Name="ID_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USUARIO__PREDOMINA_ESTILO_M">
+    <End Role="ESTILO_MUSICAL" Type="Self.ESTILO_MUSICAL" Multiplicity="0..1" />
+    <End Role="USUARIO_SOLISTA" Type="Self.USUARIO_SOLISTA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ESTILO_MUSICAL">
+        <PropertyRef Name="ID_ESTILO" />
+      </Principal>
+      <Dependent Role="USUARIO_SOLISTA">
+        <PropertyRef Name="ID_ESTILO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USUARIO__PUEDE_TEN_ESTILO_M">
+    <End Role="ESTILO_MUSICAL" Type="Self.ESTILO_MUSICAL" Multiplicity="0..1" />
+    <End Role="USUARIO_BANDA" Type="Self.USUARIO_BANDA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ESTILO_MUSICAL">
+        <PropertyRef Name="ID_ESTILO" />
+      </Principal>
+      <Dependent Role="USUARIO_BANDA">
+        <PropertyRef Name="ID_ESTILO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USUARIO__ES__DE_REGION">
+    <End Role="REGION" Type="Self.REGION" Multiplicity="0..1" />
+    <End Role="USUARIO_SOLISTA" Type="Self.USUARIO_SOLISTA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REGION">
+        <PropertyRef Name="ID_CIUDAD" />
+      </Principal>
+      <Dependent Role="USUARIO_SOLISTA">
+        <PropertyRef Name="ID_CIUDAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USUARIO__SON_DE_REGION">
+    <End Role="REGION" Type="Self.REGION" Multiplicity="0..1" />
+    <End Role="USUARIO_BANDA" Type="Self.USUARIO_BANDA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REGION">
+        <PropertyRef Name="ID_CIUDAD" />
+      </Principal>
+      <Dependent Role="USUARIO_BANDA">
+        <PropertyRef Name="ID_CIUDAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_REPORTE_PUEDEN_SE_TIPO_REP">
+    <End Role="TIPO_REPORTE" Type="Self.TIPO_REPORTE" Multiplicity="1" />
+    <End Role="REPORTE" Type="Self.REPORTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPO_REPORTE">
+        <PropertyRef Name="ID_TIP_REP" />
+      </Principal>
+      <Dependent Role="REPORTE">
+        <PropertyRef Name="ID_TIP_REP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="tmEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AVISO" EntityType="Self.AVISO" />
+    <EntitySet Name="BOLETA" EntityType="Self.BOLETA" />
+    <EntitySet Name="ESTILO_MUSICAL" EntityType="Self.ESTILO_MUSICAL" />
+    <EntitySet Name="FORMA_PAGO" EntityType="Self.FORMA_PAGO" />
+    <EntitySet Name="REGION" EntityType="Self.REGION" />
+    <EntitySet Name="REPORTE" EntityType="Self.REPORTE" />
+    <EntitySet Name="TIPO_AVISO" EntityType="Self.TIPO_AVISO" />
+    <EntitySet Name="TIPO_PRODUCTO" EntityType="Self.TIPO_PRODUCTO" />
+    <EntitySet Name="TIPO_REPORTE" EntityType="Self.TIPO_REPORTE" />
+    <EntitySet Name="USUARIO" EntityType="Self.USUARIO" />
+    <EntitySet Name="USUARIO_BANDA" EntityType="Self.USUARIO_BANDA" />
+    <EntitySet Name="USUARIO_SOLISTA" EntityType="Self.USUARIO_SOLISTA" />
+    <AssociationSet Name="FK_AVISO_ES_DE_REGION" Association="Self.FK_AVISO_ES_DE_REGION">
+      <End Role="REGION" EntitySet="REGION" />
+      <End Role="AVISO" EntitySet="AVISO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AVISO_PUEDE_SER_TIPO_AVI" Association="Self.FK_AVISO_PUEDE_SER_TIPO_AVI">
+      <End Role="TIPO_AVISO" EntitySet="TIPO_AVISO" />
+      <End Role="AVISO" EntitySet="AVISO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AVISO_PUEDE_SER_TIPO_PRO" Association="Self.FK_AVISO_PUEDE_SER_TIPO_PRO">
+      <End Role="TIPO_PRODUCTO" EntitySet="TIPO_PRODUCTO" />
+      <End Role="AVISO" EntitySet="AVISO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOLETA_SE_REGIST_AVISO" Association="Self.FK_BOLETA_SE_REGIST_AVISO">
+      <End Role="AVISO" EntitySet="AVISO" />
+      <End Role="BOLETA" EntitySet="BOLETA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_REPORTE_SERA_AVISO" Association="Self.FK_REPORTE_SERA_AVISO">
+      <End Role="AVISO" EntitySet="AVISO" />
+      <End Role="REPORTE" EntitySet="REPORTE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOLETA_PUEDE_REA_FORMA_PA" Association="Self.FK_BOLETA_PUEDE_REA_FORMA_PA">
+      <End Role="FORMA_PAGO" EntitySet="FORMA_PAGO" />
+      <End Role="BOLETA" EntitySet="BOLETA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOLETA_PUEDE_REA_USUARIO" Association="Self.FK_BOLETA_PUEDE_REA_USUARIO">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="BOLETA" EntitySet="BOLETA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USUARIO__PREDOMINA_ESTILO_M" Association="Self.FK_USUARIO__PREDOMINA_ESTILO_M">
+      <End Role="ESTILO_MUSICAL" EntitySet="ESTILO_MUSICAL" />
+      <End Role="USUARIO_SOLISTA" EntitySet="USUARIO_SOLISTA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USUARIO__PUEDE_TEN_ESTILO_M" Association="Self.FK_USUARIO__PUEDE_TEN_ESTILO_M">
+      <End Role="ESTILO_MUSICAL" EntitySet="ESTILO_MUSICAL" />
+      <End Role="USUARIO_BANDA" EntitySet="USUARIO_BANDA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USUARIO__ES__DE_REGION" Association="Self.FK_USUARIO__ES__DE_REGION">
+      <End Role="REGION" EntitySet="REGION" />
+      <End Role="USUARIO_SOLISTA" EntitySet="USUARIO_SOLISTA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USUARIO__SON_DE_REGION" Association="Self.FK_USUARIO__SON_DE_REGION">
+      <End Role="REGION" EntitySet="REGION" />
+      <End Role="USUARIO_BANDA" EntitySet="USUARIO_BANDA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_REPORTE_PUEDEN_SE_TIPO_REP" Association="Self.FK_REPORTE_PUEDEN_SE_TIPO_REP">
+      <End Role="TIPO_REPORTE" EntitySet="TIPO_REPORTE" />
+      <End Role="REPORTE" EntitySet="REPORTE" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,472 @@
+
+-- --------------------------------------------------
+-- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
+-- --------------------------------------------------
+-- Date Created: 07/20/2020 20:02:21
+-- Generated from EDMX file: C:\Users\Andres\Downloads\TMusicWeb-v16.0\TMusicWeb\TMusicWeb\Model1.edmx
+-- --------------------------------------------------
+
+SET QUOTED_IDENTIFIER OFF;
+GO
+USE [Database2];
+GO
+IF SCHEMA_ID(N'dbo') IS NULL EXECUTE(N'CREATE SCHEMA [dbo]');
+GO
+
+-- --------------------------------------------------
+-- Dropping existing FOREIGN KEY constraints
+-- --------------------------------------------------
+
+IF OBJECT_ID(N'[dbo].[FK_AVISO_ES_DE_REGION]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[AVISO] DROP CONSTRAINT [FK_AVISO_ES_DE_REGION];
+GO
+IF OBJECT_ID(N'[dbo].[FK_AVISO_PUEDE_SER_TIPO_AVI]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[AVISO] DROP CONSTRAINT [FK_AVISO_PUEDE_SER_TIPO_AVI];
+GO
+IF OBJECT_ID(N'[dbo].[FK_AVISO_PUEDE_SER_TIPO_PRO]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[AVISO] DROP CONSTRAINT [FK_AVISO_PUEDE_SER_TIPO_PRO];
+GO
+IF OBJECT_ID(N'[dbo].[FK_BOLETA_PUEDE_REA_FORMA_PA]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[BOLETA] DROP CONSTRAINT [FK_BOLETA_PUEDE_REA_FORMA_PA];
+GO
+IF OBJECT_ID(N'[dbo].[FK_BOLETA_PUEDE_REA_USUARIO]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[BOLETA] DROP CONSTRAINT [FK_BOLETA_PUEDE_REA_USUARIO];
+GO
+IF OBJECT_ID(N'[dbo].[FK_BOLETA_SE_REGIST_AVISO]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[BOLETA] DROP CONSTRAINT [FK_BOLETA_SE_REGIST_AVISO];
+GO
+IF OBJECT_ID(N'[dbo].[FK_REPORTE_PUEDEN_SE_TIPO_REP]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[REPORTE] DROP CONSTRAINT [FK_REPORTE_PUEDEN_SE_TIPO_REP];
+GO
+IF OBJECT_ID(N'[dbo].[FK_REPORTE_SERA_AVISO]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[REPORTE] DROP CONSTRAINT [FK_REPORTE_SERA_AVISO];
+GO
+IF OBJECT_ID(N'[dbo].[FK_USUARIO__ES__DE_REGION]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[USUARIO_SOLISTA] DROP CONSTRAINT [FK_USUARIO__ES__DE_REGION];
+GO
+IF OBJECT_ID(N'[dbo].[FK_USUARIO__PREDOMINA_ESTILO_M]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[USUARIO_SOLISTA] DROP CONSTRAINT [FK_USUARIO__PREDOMINA_ESTILO_M];
+GO
+IF OBJECT_ID(N'[dbo].[FK_USUARIO__PUEDE_TEN_ESTILO_M]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[USUARIO_BANDA] DROP CONSTRAINT [FK_USUARIO__PUEDE_TEN_ESTILO_M];
+GO
+IF OBJECT_ID(N'[dbo].[FK_USUARIO__SON_DE_REGION]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[USUARIO_BANDA] DROP CONSTRAINT [FK_USUARIO__SON_DE_REGION];
+GO
+
+-- --------------------------------------------------
+-- Dropping existing tables
+-- --------------------------------------------------
+
+IF OBJECT_ID(N'[dbo].[AVISO]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[AVISO];
+GO
+IF OBJECT_ID(N'[dbo].[BOLETA]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[BOLETA];
+GO
+IF OBJECT_ID(N'[dbo].[ESTILO_MUSICAL]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[ESTILO_MUSICAL];
+GO
+IF OBJECT_ID(N'[dbo].[FORMA_PAGO]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[FORMA_PAGO];
+GO
+IF OBJECT_ID(N'[dbo].[REGION]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[REGION];
+GO
+IF OBJECT_ID(N'[dbo].[REPORTE]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[REPORTE];
+GO
+IF OBJECT_ID(N'[dbo].[TIPO_AVISO]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[TIPO_AVISO];
+GO
+IF OBJECT_ID(N'[dbo].[TIPO_PRODUCTO]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[TIPO_PRODUCTO];
+GO
+IF OBJECT_ID(N'[dbo].[TIPO_REPORTE]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[TIPO_REPORTE];
+GO
+IF OBJECT_ID(N'[dbo].[USUARIO]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[USUARIO];
+GO
+IF OBJECT_ID(N'[dbo].[USUARIO_BANDA]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[USUARIO_BANDA];
+GO
+IF OBJECT_ID(N'[dbo].[USUARIO_SOLISTA]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[USUARIO_SOLISTA];
+GO
+
+-- --------------------------------------------------
+-- Creating all tables
+-- --------------------------------------------------
+
+-- Creating table 'AVISO'
+CREATE TABLE [dbo].[AVISO] (
+    [ID_AVISO] int IDENTITY(1,1) NOT NULL,
+    [ID_CIUDAD] int  NOT NULL,
+    [ID_TIP_AVISO] int  NOT NULL,
+    [ID_TIPO_PRODUCTO] int  NOT NULL,
+    [FOTO] varbinary(max)  NULL,
+    [PRECIO] int  NOT NULL,
+    [FECHA] varchar(30)  NOT NULL,
+    [PRODUCTO] varchar(20)  NOT NULL,
+    [VENDEDOR] varchar(30)  NOT NULL,
+    [MARCA] varchar(20)  NOT NULL,
+    [DESCRIPCION] varchar(120)  NULL
+);
+GO
+
+-- Creating table 'BOLETA'
+CREATE TABLE [dbo].[BOLETA] (
+    [ID_BOLETA] int IDENTITY(1,1) NOT NULL,
+    [ID_FORMA] int  NOT NULL,
+    [ID_USUARIO] int  NOT NULL,
+    [ID_AVISO] int  NOT NULL,
+    [FECHA_TRANS] binary(8)  NULL,
+    [DETALLE] varchar(120)  NULL,
+    [DETALLES] varchar(120)  NOT NULL
+);
+GO
+
+-- Creating table 'ESTILO_MUSICAL'
+CREATE TABLE [dbo].[ESTILO_MUSICAL] (
+    [ID_ESTILO] int IDENTITY(1,1) NOT NULL,
+    [NOM_ESTILO] varchar(20)  NOT NULL
+);
+GO
+
+-- Creating table 'FORMA_PAGO'
+CREATE TABLE [dbo].[FORMA_PAGO] (
+    [ID_FORMA] int IDENTITY(1,1) NOT NULL,
+    [NOM_FORMA] varchar(20)  NOT NULL
+);
+GO
+
+-- Creating table 'REGION'
+CREATE TABLE [dbo].[REGION] (
+    [ID_CIUDAD] int IDENTITY(1,1) NOT NULL,
+    [NOM_CIUDAD] varchar(20)  NOT NULL
+);
+GO
+
+-- Creating table 'REPORTE'
+CREATE TABLE [dbo].[REPORTE] (
+    [ID_REPORTE] int IDENTITY(1,1) NOT NULL,
+    [ID_TIP_REP] int  NOT NULL,
+    [ID_AVISO] int  NOT NULL,
+    [DESCRIPCION] varchar(120)  NOT NULL
+);
+GO
+
+-- Creating table 'TIPO_AVISO'
+CREATE TABLE [dbo].[TIPO_AVISO] (
+    [ID_TIP_AVISO] int IDENTITY(1,1) NOT NULL,
+    [NOM_TIP_AVISO] varchar(15)  NULL
+);
+GO
+
+-- Creating table 'TIPO_PRODUCTO'
+CREATE TABLE [dbo].[TIPO_PRODUCTO] (
+    [ID_TIPO_PRODUCTO] int IDENTITY(1,1) NOT NULL,
+    [NOM_TIPO_PROD] varchar(20)  NOT NULL
+);
+GO
+
+-- Creating table 'TIPO_REPORTE'
+CREATE TABLE [dbo].[TIPO_REPORTE] (
+    [ID_TIP_REP] int IDENTITY(1,1) NOT NULL,
+    [NOM_TIP_REP] varchar(20)  NOT NULL
+);
+GO
+
+-- Creating table 'USUARIO'
+CREATE TABLE [dbo].[USUARIO] (
+    [ID_USUARIO] int IDENTITY(1,1) NOT NULL,
+    [CORREO] varchar(30)  NOT NULL,
+    [CONTRASENA] varchar(15)  NOT NULL,
+    [NOMBRE] varchar(20)  NOT NULL,
+    [APELLIDO] varchar(20)  NOT NULL,
+    [ESTADO_CUENTA] varchar(10)  NULL
+);
+GO
+
+-- Creating table 'USUARIO_BANDA'
+CREATE TABLE [dbo].[USUARIO_BANDA] (
+    [ID_BANDA] int IDENTITY(1,1) NOT NULL,
+    [CORREO] varchar(30)  NOT NULL,
+    [CONTRASENA] varchar(15)  NOT NULL,
+    [NOMBRE] varchar(20)  NOT NULL,
+    [APELLIDO] varchar(20)  NOT NULL,
+    [ESTADO_CUENTA] varchar(10)  NULL,
+    [ID_ESTILO] int  NULL,
+    [ID_CIUDAD] int  NULL,
+    [NOM_BANDA] varchar(20)  NULL,
+    [INFLUENCIAS] varchar(120)  NULL,
+    [DISPONIBILIDAD] bit  NULL,
+    [DESCRIPCION] varchar(120)  NULL
+);
+GO
+
+-- Creating table 'USUARIO_SOLISTA'
+CREATE TABLE [dbo].[USUARIO_SOLISTA] (
+    [ID_SOLISTA] int IDENTITY(1,1) NOT NULL,
+    [CORREO] varchar(30)  NOT NULL,
+    [CONTRASENA] varchar(15)  NOT NULL,
+    [NOMBRE] varchar(20)  NOT NULL,
+    [APELLIDO] varchar(20)  NOT NULL,
+    [ESTADO_CUENTA] varchar(10)  NULL,
+    [ID_ESTILO] int  NULL,
+    [ID_CIUDAD] int  NULL,
+    [APODO] varchar(15)  NULL,
+    [INFLUENCIAS] varchar(120)  NULL,
+    [DESCRIPCION] varchar(120)  NULL
+);
+GO
+
+-- --------------------------------------------------
+-- Creating all PRIMARY KEY constraints
+-- --------------------------------------------------
+
+-- Creating primary key on [ID_AVISO] in table 'AVISO'
+ALTER TABLE [dbo].[AVISO]
+ADD CONSTRAINT [PK_AVISO]
+    PRIMARY KEY CLUSTERED ([ID_AVISO] ASC);
+GO
+
+-- Creating primary key on [ID_BOLETA] in table 'BOLETA'
+ALTER TABLE [dbo].[BOLETA]
+ADD CONSTRAINT [PK_BOLETA]
+    PRIMARY KEY CLUSTERED ([ID_BOLETA] ASC);
+GO
+
+-- Creating primary key on [ID_ESTILO] in table 'ESTILO_MUSICAL'
+ALTER TABLE [dbo].[ESTILO_MUSICAL]
+ADD CONSTRAINT [PK_ESTILO_MUSICAL]
+    PRIMARY KEY CLUSTERED ([ID_ESTILO] ASC);
+GO
+
+-- Creating primary key on [ID_FORMA] in table 'FORMA_PAGO'
+ALTER TABLE [dbo].[FORMA_PAGO]
+ADD CONSTRAINT [PK_FORMA_PAGO]
+    PRIMARY KEY CLUSTERED ([ID_FORMA] ASC);
+GO
+
+-- Creating primary key on [ID_CIUDAD] in table 'REGION'
+ALTER TABLE [dbo].[REGION]
+ADD CONSTRAINT [PK_REGION]
+    PRIMARY KEY CLUSTERED ([ID_CIUDAD] ASC);
+GO
+
+-- Creating primary key on [ID_REPORTE] in table 'REPORTE'
+ALTER TABLE [dbo].[REPORTE]
+ADD CONSTRAINT [PK_REPORTE]
+    PRIMARY KEY CLUSTERED ([ID_REPORTE] ASC);
+GO
+
+-- Creating primary key on [ID_TIP_AVISO] in table 'TIPO_AVISO'
+ALTER TABLE [dbo].[TIPO_AVISO]
+ADD CONSTRAINT [PK_TIPO_AVISO]
+    PRIMARY KEY CLUSTERED ([ID_TIP_AVISO] ASC);
+GO
+
+-- Creating primary key on [ID_TIPO_PRODUCTO] in table 'TIPO_PRODUCTO'
+ALTER TABLE [dbo].[TIPO_PRODUCTO]
+ADD CONSTRAINT [PK_TIPO_PRODUCTO]
+    PRIMARY KEY CLUSTERED ([ID_TIPO_PRODUCTO] ASC);
+GO
+
+-- Creating primary key on [ID_TIP_REP] in table 'TIPO_REPORTE'
+ALTER TABLE [dbo].[TIPO_REPORTE]
+ADD CONSTRAINT [PK_TIPO_REPORTE]
+    PRIMARY KEY CLUSTERED ([ID_TIP_REP] ASC);
+GO
+
+-- Creating primary key on [ID_USUARIO] in table 'USUARIO'
+ALTER TABLE [dbo].[USUARIO]
+ADD CONSTRAINT [PK_USUARIO]
+    PRIMARY KEY CLUSTERED ([ID_USUARIO] ASC);
+GO
+
+-- Creating primary key on [ID_BANDA] in table 'USUARIO_BANDA'
+ALTER TABLE [dbo].[USUARIO_BANDA]
+ADD CONSTRAINT [PK_USUARIO_BANDA]
+    PRIMARY KEY CLUSTERED ([ID_BANDA] ASC);
+GO
+
+-- Creating primary key on [ID_SOLISTA] in table 'USUARIO_SOLISTA'
+ALTER TABLE [dbo].[USUARIO_SOLISTA]
+ADD CONSTRAINT [PK_USUARIO_SOLISTA]
+    PRIMARY KEY CLUSTERED ([ID_SOLISTA] ASC);
+GO
+
+-- --------------------------------------------------
+-- Creating all FOREIGN KEY constraints
+-- --------------------------------------------------
+
+-- Creating foreign key on [ID_CIUDAD] in table 'AVISO'
+ALTER TABLE [dbo].[AVISO]
+ADD CONSTRAINT [FK_AVISO_ES_DE_REGION]
+    FOREIGN KEY ([ID_CIUDAD])
+    REFERENCES [dbo].[REGION]
+        ([ID_CIUDAD])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_AVISO_ES_DE_REGION'
+CREATE INDEX [IX_FK_AVISO_ES_DE_REGION]
+ON [dbo].[AVISO]
+    ([ID_CIUDAD]);
+GO
+
+-- Creating foreign key on [ID_TIP_AVISO] in table 'AVISO'
+ALTER TABLE [dbo].[AVISO]
+ADD CONSTRAINT [FK_AVISO_PUEDE_SER_TIPO_AVI]
+    FOREIGN KEY ([ID_TIP_AVISO])
+    REFERENCES [dbo].[TIPO_AVISO]
+        ([ID_TIP_AVISO])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_AVISO_PUEDE_SER_TIPO_AVI'
+CREATE INDEX [IX_FK_AVISO_PUEDE_SER_TIPO_AVI]
+ON [dbo].[AVISO]
+    ([ID_TIP_AVISO]);
+GO
+
+-- Creating foreign key on [ID_TIPO_PRODUCTO] in table 'AVISO'
+ALTER TABLE [dbo].[AVISO]
+ADD CONSTRAINT [FK_AVISO_PUEDE_SER_TIPO_PRO]
+    FOREIGN KEY ([ID_TIPO_PRODUCTO])
+    REFERENCES [dbo].[TIPO_PRODUCTO]
+        ([ID_TIPO_PRODUCTO])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_AVISO_PUEDE_SER_TIPO_PRO'
+CREATE INDEX [IX_FK_AVISO_PUEDE_SER_TIPO_PRO]
+ON [dbo].[AVISO]
+    ([ID_TIPO_PRODUCTO]);
+GO
+
+-- Creating foreign key on [ID_AVISO] in table 'BOLETA'
+ALTER TABLE [dbo].[BOLETA]
+ADD CONSTRAINT [FK_BOLETA_SE_REGIST_AVISO]
+    FOREIGN KEY ([ID_AVISO])
+    REFERENCES [dbo].[AVISO]
+        ([ID_AVISO])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_BOLETA_SE_REGIST_AVISO'
+CREATE INDEX [IX_FK_BOLETA_SE_REGIST_AVISO]
+ON [dbo].[BOLETA]
+    ([ID_AVISO]);
+GO
+
+-- Creating foreign key on [ID_AVISO] in table 'REPORTE'
+ALTER TABLE [dbo].[REPORTE]
+ADD CONSTRAINT [FK_REPORTE_SERA_AVISO]
+    FOREIGN KEY ([ID_AVISO])
+    REFERENCES [dbo].[AVISO]
+        ([ID_AVISO])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_REPORTE_SERA_AVISO'
+CREATE INDEX [IX_FK_REPORTE_SERA_AVISO]
+ON [dbo].[REPORTE]
+    ([ID_AVISO]);
+GO
+
+-- Creating foreign key on [ID_FORMA] in table 'BOLETA'
+ALTER TABLE [dbo].[BOLETA]
+ADD CONSTRAINT [FK_BOLETA_PUEDE_REA_FORMA_PA]
+    FOREIGN KEY ([ID_FORMA])
+    REFERENCES [dbo].[FORMA_PAGO]
+        ([ID_FORMA])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_BOLETA_PUEDE_REA_FORMA_PA'
+CREATE INDEX [IX_FK_BOLETA_PUEDE_REA_FORMA_PA]
+ON [dbo].[BOLETA]
+    ([ID_FORMA]);
+GO
+
+-- Creating foreign key on [ID_ESTILO] in table 'USUARIO_SOLISTA'
+ALTER TABLE [dbo].[USUARIO_SOLISTA]
+ADD CONSTRAINT [FK_USUARIO__PREDOMINA_ESTILO_M]
+    FOREIGN KEY ([ID_ESTILO])
+    REFERENCES [dbo].[ESTILO_MUSICAL]
+        ([ID_ESTILO])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_USUARIO__PREDOMINA_ESTILO_M'
+CREATE INDEX [IX_FK_USUARIO__PREDOMINA_ESTILO_M]
+ON [dbo].[USUARIO_SOLISTA]
+    ([ID_ESTILO]);
+GO
+
+-- Creating foreign key on [ID_ESTILO] in table 'USUARIO_BANDA'
+ALTER TABLE [dbo].[USUARIO_BANDA]
+ADD CONSTRAINT [FK_USUARIO__PUEDE_TEN_ESTILO_M]
+    FOREIGN KEY ([ID_ESTILO])
+    REFERENCES [dbo].[ESTILO_MUSICAL]
+        ([ID_ESTILO])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_USUARIO__PUEDE_TEN_ESTILO_M'
+CREATE INDEX [IX_FK_USUARIO__PUEDE_TEN_ESTILO_M]
+ON [dbo].[USUARIO_BANDA]
+    ([ID_ESTILO]);
+GO
+
+-- Creating foreign key on [ID_CIUDAD] in table 'USUARIO_SOLISTA'
+ALTER TABLE [dbo].[USUARIO_SOLISTA]
+ADD CONSTRAINT [FK_USUARIO__ES__DE_REGION]
+    FOREIGN KEY ([ID_CIUDAD])
+    REFERENCES [dbo].[REGION]
+        ([ID_CIUDAD])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_USUARIO__ES__DE_REGION'
+CREATE INDEX [IX_FK_USUARIO__ES__DE_REGION]
+ON [dbo].[USUARIO_SOLISTA]
+    ([ID_CIUDAD]);
+GO
+
+-- Creating foreign key on [ID_CIUDAD] in table 'USUARIO_BANDA'
+ALTER TABLE [dbo].[USUARIO_BANDA]
+ADD CONSTRAINT [FK_USUARIO__SON_DE_REGION]
+    FOREIGN KEY ([ID_CIUDAD])
+    REFERENCES [dbo].[REGION]
+        ([ID_CIUDAD])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_USUARIO__SON_DE_REGION'
+CREATE INDEX [IX_FK_USUARIO__SON_DE_REGION]
+ON [dbo].[USUARIO_BANDA]
+    ([ID_CIUDAD]);
+GO
+
+-- Creating foreign key on [ID_TIP_REP] in table 'REPORTE'
+ALTER TABLE [dbo].[REPORTE]
+ADD CONSTRAINT [FK_REPORTE_PUEDEN_SE_TIPO_REP]
+    FOREIGN KEY ([ID_TIP_REP])
+    REFERENCES [dbo].[TIPO_REPORTE]
+        ([ID_TIP_REP])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_REPORTE_PUEDEN_SE_TIPO_REP'
+CREATE INDEX [IX_FK_REPORTE_PUEDEN_SE_TIPO_REP]
+ON [dbo].[REPORTE]
+    ([ID_TIP_REP]);
+GO
+
+-- --------------------------------------------------
+-- Script has ended
+-- --------------------------------------------------

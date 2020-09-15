@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Database2ModelStoreContainer" CdmEntityContainer="tmEntities">
+    <EntitySetMapping Name="AVISO">
+      <EntityTypeMapping TypeName="Database2Model.AVISO">
+        <MappingFragment StoreEntitySet="AVISO">
+          <ScalarProperty Name="ID_AVISO" ColumnName="ID_AVISO" />
+          <ScalarProperty Name="ID_CIUDAD" ColumnName="ID_CIUDAD" />
+          <ScalarProperty Name="ID_TIP_AVISO" ColumnName="ID_TIP_AVISO" />
+          <ScalarProperty Name="ID_TIPO_PRODUCTO" ColumnName="ID_TIPO_PRODUCTO" />
+          <ScalarProperty Name="FOTO" ColumnName="FOTO" />
+          <ScalarProperty Name="PRECIO" ColumnName="PRECIO" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="PRODUCTO" ColumnName="PRODUCTO" />
+          <ScalarProperty Name="VENDEDOR" ColumnName="VENDEDOR" />
+          <ScalarProperty Name="MARCA" ColumnName="MARCA" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BOLETA">
+      <EntityTypeMapping TypeName="Database2Model.BOLETA">
+        <MappingFragment StoreEntitySet="BOLETA">
+          <ScalarProperty Name="ID_BOLETA" ColumnName="ID_BOLETA" />
+          <ScalarProperty Name="ID_FORMA" ColumnName="ID_FORMA" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="ID_AVISO" ColumnName="ID_AVISO" />
+          <ScalarProperty Name="FECHA_TRANS" ColumnName="FECHA_TRANS" />
+          <ScalarProperty Name="DETALLE" ColumnName="DETALLE" />
+          <ScalarProperty Name="DETALLES" ColumnName="DETALLES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESTILO_MUSICAL">
+      <EntityTypeMapping TypeName="Database2Model.ESTILO_MUSICAL">
+        <MappingFragment StoreEntitySet="ESTILO_MUSICAL">
+          <ScalarProperty Name="ID_ESTILO" ColumnName="ID_ESTILO" />
+          <ScalarProperty Name="NOM_ESTILO" ColumnName="NOM_ESTILO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FORMA_PAGO">
+      <EntityTypeMapping TypeName="Database2Model.FORMA_PAGO">
+        <MappingFragment StoreEntitySet="FORMA_PAGO">
+          <ScalarProperty Name="ID_FORMA" ColumnName="ID_FORMA" />
+          <ScalarProperty Name="NOM_FORMA" ColumnName="NOM_FORMA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REGION">
+      <EntityTypeMapping TypeName="Database2Model.REGION">
+        <MappingFragment StoreEntitySet="REGION">
+          <ScalarProperty Name="ID_CIUDAD" ColumnName="ID_CIUDAD" />
+          <ScalarProperty Name="NOM_CIUDAD" ColumnName="NOM_CIUDAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REPORTE">
+      <EntityTypeMapping TypeName="Database2Model.REPORTE">
+        <MappingFragment StoreEntitySet="REPORTE">
+          <ScalarProperty Name="ID_REPORTE" ColumnName="ID_REPORTE" />
+          <ScalarProperty Name="ID_TIP_REP" ColumnName="ID_TIP_REP" />
+          <ScalarProperty Name="ID_AVISO" ColumnName="ID_AVISO" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPO_AVISO">
+      <EntityTypeMapping TypeName="Database2Model.TIPO_AVISO">
+        <MappingFragment StoreEntitySet="TIPO_AVISO">
+          <ScalarProperty Name="ID_TIP_AVISO" ColumnName="ID_TIP_AVISO" />
+          <ScalarProperty Name="NOM_TIP_AVISO" ColumnName="NOM_TIP_AVISO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPO_PRODUCTO">
+      <EntityTypeMapping TypeName="Database2Model.TIPO_PRODUCTO">
+        <MappingFragment StoreEntitySet="TIPO_PRODUCTO">
+          <ScalarProperty Name="ID_TIPO_PRODUCTO" ColumnName="ID_TIPO_PRODUCTO" />
+          <ScalarProperty Name="NOM_TIPO_PROD" ColumnName="NOM_TIPO_PROD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPO_REPORTE">
+      <EntityTypeMapping TypeName="Database2Model.TIPO_REPORTE">
+        <MappingFragment StoreEntitySet="TIPO_REPORTE">
+          <ScalarProperty Name="ID_TIP_REP" ColumnName="ID_TIP_REP" />
+          <ScalarProperty Name="NOM_TIP_REP" ColumnName="NOM_TIP_REP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIO">
+      <EntityTypeMapping TypeName="Database2Model.USUARIO">
+        <MappingFragment StoreEntitySet="USUARIO">
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="CORREO" ColumnName="CORREO" />
+          <ScalarProperty Name="CONTRASENA" ColumnName="CONTRASENA" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="APELLIDO" ColumnName="APELLIDO" />
+          <ScalarProperty Name="ESTADO_CUENTA" ColumnName="ESTADO_CUENTA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIO_BANDA">
+      <EntityTypeMapping TypeName="Database2Model.USUARIO_BANDA">
+        <MappingFragment StoreEntitySet="USUARIO_BANDA">
+          <ScalarProperty Name="ID_BANDA" ColumnName="ID_BANDA" />
+          <ScalarProperty Name="CORREO" ColumnName="CORREO" />
+          <ScalarProperty Name="CONTRASENA" ColumnName="CONTRASENA" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="APELLIDO" ColumnName="APELLIDO" />
+          <ScalarProperty Name="ESTADO_CUENTA" ColumnName="ESTADO_CUENTA" />
+          <ScalarProperty Name="ID_ESTILO" ColumnName="ID_ESTILO" />
+          <ScalarProperty Name="ID_CIUDAD" ColumnName="ID_CIUDAD" />
+          <ScalarProperty Name="NOM_BANDA" ColumnName="NOM_BANDA" />
+          <ScalarProperty Name="INFLUENCIAS" ColumnName="INFLUENCIAS" />
+          <ScalarProperty Name="DISPONIBILIDAD" ColumnName="DISPONIBILIDAD" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIO_SOLISTA">
+      <EntityTypeMapping TypeName="Database2Model.USUARIO_SOLISTA">
+        <MappingFragment StoreEntitySet="USUARIO_SOLISTA">
+          <ScalarProperty Name="ID_SOLISTA" ColumnName="ID_SOLISTA" />
+          <ScalarProperty Name="CORREO" ColumnName="CORREO" />
+          <ScalarProperty Name="CONTRASENA" ColumnName="CONTRASENA" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="APELLIDO" ColumnName="APELLIDO" />
+          <ScalarProperty Name="ESTADO_CUENTA" ColumnName="ESTADO_CUENTA" />
+          <ScalarProperty Name="ID_ESTILO" ColumnName="ID_ESTILO" />
+          <ScalarProperty Name="ID_CIUDAD" ColumnName="ID_CIUDAD" />
+          <ScalarProperty Name="APODO" ColumnName="APODO" />
+          <ScalarProperty Name="INFLUENCIAS" ColumnName="INFLUENCIAS" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database2Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Database2ModelStoreContainer">
+    <EntitySet Name="AVISO" EntityType="Database2Model.Store.AVISO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BOLETA" EntityType="Database2Model.Store.BOLETA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ESTILO_MUSICAL" EntityType="Database2Model.Store.ESTILO_MUSICAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FORMA_PAGO" EntityType="Database2Model.Store.FORMA_PAGO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="REGION" EntityType="Database2Model.Store.REGION" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="REPORTE" EntityType="Database2Model.Store.REPORTE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TIPO_AVISO" EntityType="Database2Model.Store.TIPO_AVISO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TIPO_PRODUCTO" EntityType="Database2Model.Store.TIPO_PRODUCTO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TIPO_REPORTE" EntityType="Database2Model.Store.TIPO_REPORTE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="USUARIO" EntityType="Database2Model.Store.USUARIO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="USUARIO_BANDA" EntityType="Database2Model.Store.USUARIO_BANDA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="USUARIO_SOLISTA" EntityType="Database2Model.Store.USUARIO_SOLISTA" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_AVISO_ES_DE_REGION" Association="Database2Model.Store.FK_AVISO_ES_DE_REGION">
+      <End Role="REGION" EntitySet="REGION" />
+      <End Role="AVISO" EntitySet="AVISO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AVISO_PUEDE_SER_TIPO_AVI" Association="Database2Model.Store.FK_AVISO_PUEDE_SER_TIPO_AVI">
+      <End Role="TIPO_AVISO" EntitySet="TIPO_AVISO" />
+      <End Role="AVISO" EntitySet="AVISO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AVISO_PUEDE_SER_TIPO_PRO" Association="Database2Model.Store.FK_AVISO_PUEDE_SER_TIPO_PRO">
+      <End Role="TIPO_PRODUCTO" EntitySet="TIPO_PRODUCTO" />
+      <End Role="AVISO" EntitySet="AVISO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOLETA_SE_REGIST_AVISO" Association="Database2Model.Store.FK_BOLETA_SE_REGIST_AVISO">
+      <End Role="AVISO" EntitySet="AVISO" />
+      <End Role="BOLETA" EntitySet="BOLETA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_REPORTE_SERA_AVISO" Association="Database2Model.Store.FK_REPORTE_SERA_AVISO">
+      <End Role="AVISO" EntitySet="AVISO" />
+      <End Role="REPORTE" EntitySet="REPORTE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOLETA_PUEDE_REA_FORMA_PA" Association="Database2Model.Store.FK_BOLETA_PUEDE_REA_FORMA_PA">
+      <End Role="FORMA_PAGO" EntitySet="FORMA_PAGO" />
+      <End Role="BOLETA" EntitySet="BOLETA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USUARIO__PREDOMINA_ESTILO_M" Association="Database2Model.Store.FK_USUARIO__PREDOMINA_ESTILO_M">
+      <End Role="ESTILO_MUSICAL" EntitySet="ESTILO_MUSICAL" />
+      <End Role="USUARIO_SOLISTA" EntitySet="USUARIO_SOLISTA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USUARIO__PUEDE_TEN_ESTILO_M" Association="Database2Model.Store.FK_USUARIO__PUEDE_TEN_ESTILO_M">
+      <End Role="ESTILO_MUSICAL" EntitySet="ESTILO_MUSICAL" />
+      <End Role="USUARIO_BANDA" EntitySet="USUARIO_BANDA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USUARIO__ES__DE_REGION" Association="Database2Model.Store.FK_USUARIO__ES__DE_REGION">
+      <End Role="REGION" EntitySet="REGION" />
+      <End Role="USUARIO_SOLISTA" EntitySet="USUARIO_SOLISTA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USUARIO__SON_DE_REGION" Association="Database2Model.Store.FK_USUARIO__SON_DE_REGION">
+      <End Role="REGION" EntitySet="REGION" />
+      <End Role="USUARIO_BANDA" EntitySet="USUARIO_BANDA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_REPORTE_PUEDEN_SE_TIPO_REP" Association="Database2Model.Store.FK_REPORTE_PUEDEN_SE_TIPO_REP">
+      <End Role="TIPO_REPORTE" EntitySet="TIPO_REPORTE" />
+      <End Role="REPORTE" EntitySet="REPORTE" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AVISO">
+    <Key>
+      <PropertyRef Name="ID_AVISO" />
+    </Key>
+    <Property Name="ID_AVISO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_CIUDAD" Type="int" Nullable="false" />
+    <Property Name="ID_TIP_AVISO" Type="int" Nullable="false" />
+    <Property Name="ID_TIPO_PRODUCTO" Type="int" Nullable="false" />
+    <Property Name="FOTO" Type="varbinary(max)" Nullable="true" />
+    <Property Name="PRECIO" Type="int" Nullable="false" />
+    <Property Name="FECHA" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="PRODUCTO" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="VENDEDOR" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="MARCA" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="120" />
+  </EntityType>
+  <EntityType Name="BOLETA">
+    <Key>
+      <PropertyRef Name="ID_BOLETA" />
+    </Key>
+    <Property Name="ID_BOLETA" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_FORMA" Type="int" Nullable="false" />
+    <Property Name="ID_USUARIO" Type="int" Nullable="false" />
+    <Property Name="ID_AVISO" Type="int" Nullable="false" />
+    <Property Name="FECHA_TRANS" Type="binary" StoreGeneratedPattern="Computed" Nullable="true" MaxLength="8" />
+    <Property Name="DETALLE" Type="varchar" Nullable="true" MaxLength="120" />
+    <Property Name="DETALLES" Type="varchar" Nullable="false" MaxLength="120" />
+  </EntityType>
+  <EntityType Name="ESTILO_MUSICAL">
+    <Key>
+      <PropertyRef Name="ID_ESTILO" />
+    </Key>
+    <Property Name="ID_ESTILO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOM_ESTILO" Type="varchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="FORMA_PAGO">
+    <Key>
+      <PropertyRef Name="ID_FORMA" />
+    </Key>
+    <Property Name="ID_FORMA" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOM_FORMA" Type="varchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="REGION">
+    <Key>
+      <PropertyRef Name="ID_CIUDAD" />
+    </Key>
+    <Property Name="ID_CIUDAD" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOM_CIUDAD" Type="varchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="REPORTE">
+    <Key>
+      <PropertyRef Name="ID_REPORTE" />
+    </Key>
+    <Property Name="ID_REPORTE" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_TIP_REP" Type="int" Nullable="false" />
+    <Property Name="ID_AVISO" Type="int" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="false" MaxLength="120" />
+  </EntityType>
+  <EntityType Name="TIPO_AVISO">
+    <Key>
+      <PropertyRef Name="ID_TIP_AVISO" />
+    </Key>
+    <Property Name="ID_TIP_AVISO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOM_TIP_AVISO" Type="varchar" Nullable="true" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="TIPO_PRODUCTO">
+    <Key>
+      <PropertyRef Name="ID_TIPO_PRODUCTO" />
+    </Key>
+    <Property Name="ID_TIPO_PRODUCTO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOM_TIPO_PROD" Type="varchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="TIPO_REPORTE">
+    <Key>
+      <PropertyRef Name="ID_TIP_REP" />
+    </Key>
+    <Property Name="ID_TIP_REP" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOM_TIP_REP" Type="varchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="ID_USUARIO" />
+    </Key>
+    <Property Name="ID_USUARIO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CORREO" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="CONTRASENA" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="NOMBRE" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="APELLIDO" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="ESTADO_CUENTA" Type="varchar" Nullable="true" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="USUARIO_BANDA">
+    <Key>
+      <PropertyRef Name="ID_BANDA" />
+    </Key>
+    <Property Name="ID_BANDA" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CORREO" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="CONTRASENA" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="NOMBRE" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="APELLIDO" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="ESTADO_CUENTA" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="ID_ESTILO" Type="int" Nullable="true" />
+    <Property Name="ID_CIUDAD" Type="int" Nullable="true" />
+    <Property Name="NOM_BANDA" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="INFLUENCIAS" Type="varchar" Nullable="true" MaxLength="120" />
+    <Property Name="DISPONIBILIDAD" Type="bit" Nullable="true" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="120" />
+  </EntityType>
+  <EntityType Name="USUARIO_SOLISTA">
+    <Key>
+      <PropertyRef Name="ID_SOLISTA" />
+    </Key>
+    <Property Name="ID_SOLISTA" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CORREO" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="CONTRASENA" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="NOMBRE" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="APELLIDO" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="ESTADO_CUENTA" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="ID_ESTILO" Type="int" Nullable="true" />
+    <Property Name="ID_CIUDAD" Type="int" Nullable="true" />
+    <Property Name="APODO" Type="varchar" Nullable="true" MaxLength="15" />
+    <Property Name="INFLUENCIAS" Type="varchar" Nullable="true" MaxLength="120" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="120" />
+  </EntityType>
+  <Association Name="FK_AVISO_ES_DE_REGION">
+    <End Role="REGION" Type="Database2Model.Store.REGION" Multiplicity="1" />
+    <End Role="AVISO" Type="Database2Model.Store.AVISO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REGION">
+        <PropertyRef Name="ID_CIUDAD" />
+      </Principal>
+      <Dependent Role="AVISO">
+        <PropertyRef Name="ID_CIUDAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AVISO_PUEDE_SER_TIPO_AVI">
+    <End Role="TIPO_AVISO" Type="Database2Model.Store.TIPO_AVISO" Multiplicity="1" />
+    <End Role="AVISO" Type="Database2Model.Store.AVISO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPO_AVISO">
+        <PropertyRef Name="ID_TIP_AVISO" />
+      </Principal>
+      <Dependent Role="AVISO">
+        <PropertyRef Name="ID_TIP_AVISO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AVISO_PUEDE_SER_TIPO_PRO">
+    <End Role="TIPO_PRODUCTO" Type="Database2Model.Store.TIPO_PRODUCTO" Multiplicity="1" />
+    <End Role="AVISO" Type="Database2Model.Store.AVISO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPO_PRODUCTO">
+        <PropertyRef Name="ID_TIPO_PRODUCTO" />
+      </Principal>
+      <Dependent Role="AVISO">
+        <PropertyRef Name="ID_TIPO_PRODUCTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOLETA_SE_REGIST_AVISO">
+    <End Role="AVISO" Type="Database2Model.Store.AVISO" Multiplicity="1" />
+    <End Role="BOLETA" Type="Database2Model.Store.BOLETA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AVISO">
+        <PropertyRef Name="ID_AVISO" />
+      </Principal>
+      <Dependent Role="BOLETA">
+        <PropertyRef Name="ID_AVISO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_REPORTE_SERA_AVISO">
+    <End Role="AVISO" Type="Database2Model.Store.AVISO" Multiplicity="1" />
+    <End Role="REPORTE" Type="Database2Model.Store.REPORTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AVISO">
+        <PropertyRef Name="ID_AVISO" />
+      </Principal>
+      <Dependent Role="REPORTE">
+        <PropertyRef Name="ID_AVISO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOLETA_PUEDE_REA_FORMA_PA">
+    <End Role="FORMA_PAGO" Type="Database2Model.Store.FORMA_PAGO" Multiplicity="1" />
+    <End Role="BOLETA" Type="Database2Model.Store.BOLETA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FORMA_PAGO">
+        <PropertyRef Name="ID_FORMA" />
+      </Principal>
+      <Dependent Role="BOLETA">
+        <PropertyRef Name="ID_FORMA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USUARIO__PREDOMINA_ESTILO_M">
+    <End Role="ESTILO_MUSICAL" Type="Database2Model.Store.ESTILO_MUSICAL" Multiplicity="0..1" />
+    <End Role="USUARIO_SOLISTA" Type="Database2Model.Store.USUARIO_SOLISTA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ESTILO_MUSICAL">
+        <PropertyRef Name="ID_ESTILO" />
+      </Principal>
+      <Dependent Role="USUARIO_SOLISTA">
+        <PropertyRef Name="ID_ESTILO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USUARIO__PUEDE_TEN_ESTILO_M">
+    <End Role="ESTILO_MUSICAL" Type="Database2Model.Store.ESTILO_MUSICAL" Multiplicity="0..1" />
+    <End Role="USUARIO_BANDA" Type="Database2Model.Store.USUARIO_BANDA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ESTILO_MUSICAL">
+        <PropertyRef Name="ID_ESTILO" />
+      </Principal>
+      <Dependent Role="USUARIO_BANDA">
+        <PropertyRef Name="ID_ESTILO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USUARIO__ES__DE_REGION">
+    <End Role="REGION" Type="Database2Model.Store.REGION" Multiplicity="0..1" />
+    <End Role="USUARIO_SOLISTA" Type="Database2Model.Store.USUARIO_SOLISTA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REGION">
+        <PropertyRef Name="ID_CIUDAD" />
+      </Principal>
+      <Dependent Role="USUARIO_SOLISTA">
+        <PropertyRef Name="ID_CIUDAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USUARIO__SON_DE_REGION">
+    <End Role="REGION" Type="Database2Model.Store.REGION" Multiplicity="0..1" />
+    <End Role="USUARIO_BANDA" Type="Database2Model.Store.USUARIO_BANDA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REGION">
+        <PropertyRef Name="ID_CIUDAD" />
+      </Principal>
+      <Dependent Role="USUARIO_BANDA">
+        <PropertyRef Name="ID_CIUDAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_REPORTE_PUEDEN_SE_TIPO_REP">
+    <End Role="TIPO_REPORTE" Type="Database2Model.Store.TIPO_REPORTE" Multiplicity="1" />
+    <End Role="REPORTE" Type="Database2Model.Store.REPORTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPO_REPORTE">
+        <PropertyRef Name="ID_TIP_REP" />
+      </Principal>
+      <Dependent Role="REPORTE">
+        <PropertyRef Name="ID_TIP_REP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
